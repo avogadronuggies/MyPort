@@ -11,7 +11,7 @@ export default function Header() {
             src="/images/Vijet.AVIF"
             width={500}
             height={500}
-            alt="Vijet Naik"
+            alt="Vijet Naik" priority
           />
         </div>
         <div className="header-left">
@@ -21,7 +21,7 @@ export default function Header() {
             functional websites. I'm always looking for new challenges and
             opportunities to learn new things.
           </p>
-          <Link href="/resume/VijetResume.pdf" className="btn">
+          <Link href="/resume/VijetResume.pdf" className="btn btn-primary">
             <p>Resume</p>
           </Link>
         </div>

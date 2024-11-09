@@ -66,25 +66,17 @@ export default function Navbar() {
             &times;
           </button>
           <div className="flex flex-col space-y-4">
-            <Link
-              href="#skills"
-              className=""
-              onClick={toggleMenu}
-            >
+            <Link href="#skills" className="navlink" onClick={toggleMenu}>
               Skills
             </Link>
             <Link
               href="#Projects"
-              className=""
+              className="navlink"
               onClick={toggleMenu}
             >
               Project
             </Link>
-            <Link
-              href="#contact"
-              className=""
-              onClick={toggleMenu}
-            >
+            <Link href="#contact" className="navlink" onClick={toggleMenu}>
               Contact
             </Link>
           </div>
