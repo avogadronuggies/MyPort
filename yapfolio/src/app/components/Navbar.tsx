@@ -29,7 +29,7 @@ export default function Navbar() {
 
   return (
     <nav>
-      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+      <div className="container mx-auto px-4 py-4 flex justify-between items-center overflow-hidden">
         <Link href="/" className="name_sec text-2xl font-bold">
           VIJET
         </Link>
@@ -65,16 +65,12 @@ export default function Navbar() {
           <button onClick={toggleMenu} className="mb-4 text-2xl">
             &times;
           </button>
-          <div className="flex flex-col space-y-4">
+          <div className="flex flex-col space-y-4 ">
             <Link href="#skills" className="navlink" onClick={toggleMenu}>
               Skills
             </Link>
-            <Link
-              href="#Projects"
-              className="navlink"
-              onClick={toggleMenu}
-            >
-              Project
+            <Link href="#Projects" className="navlink" onClick={toggleMenu}>
+              Projects
             </Link>
             <Link href="#contact" className="navlink" onClick={toggleMenu}>
               Contact
